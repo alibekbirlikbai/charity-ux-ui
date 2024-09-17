@@ -1,0 +1,177 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+/*BASIC*/
+#search_Page.user_mode .HEADER {
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#search_Page.user_mode .MAIN {
+    /* min-height: 500px; */
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+/* --MAIN-- */
+
+
+/*  Main CONTENT  */
+#search_Page.user_mode .container {
+    /* height: 100%; */
+    padding-bottom: 90px;
+    
+    /*TEMP*/
+    /* border: 5px dashed red; */
+}
+#search_Page.user_mode .container__main {
+    margin-top: 0;
+
+    border: none;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#search_Page.user_mode .content {
+    border: none;
+}
+#search_Page.user_mode .content__body {
+    padding: 20px 30px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+
+
+
+
+
+#search_Page.user_mode .category-flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    border: none;
+
+    /* padding-bottom: 30px; */
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: yellow; */
+}
+#search_Page.user_mode .category-flex-box a {
+    transition: all 0.3s;
+
+    text-decoration: none;
+    color: black;
+}
+#search_Page.user_mode .category-flex-box a:hover {
+    background-color: lightgray;
+
+    transition: all 0.3s;
+}
+#search_Page.user_mode .category-flex-box .charity-box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    padding: 30px;
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+}
+#search_Page.user_mode .charity-box .charity-img {
+    width: 300px;
+    height: 250px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: 3px solid var(--color-main-theme);
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#search_Page.user_mode .charity-box .charity-content-box {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#search_Page.user_mode .charity-content {
+    display: flex;
+    gap: 15px;
+
+    font-size: var(--font-size-main-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+
+#search_Page.user_mode .charity-content .charity-content-title {
+    width: 400px;
+    height: fit-content;
+
+    /*  __VARIANT_3__  */
+    /* display: flex;
+    justify-content: end; */
+
+
+    
+    color: #fff;
+    /* text-align: left; */
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+#search_Page.user_mode #charity_name {
+    text-decoration: underline;
+}
+#search_Page.user_mode .charity-content-title p {
+    padding: 15px 20px;
+
+    /*  __VARIANT_2__  */
+    /* width: fit-content; */
+
+    /*  __VARIANT_2__  */
+    /*no style for width (Занимает все дсотупное пространство)*/
+
+    text-align: left;
+    
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 1px dashed white; */
+}
+
+#search_Page.user_mode .charity-content .charity-content-text {
+    width: 100%;
+    text-align: justify;
+
+    display: flex;
+    align-items: center;
+
+    /*TEMP*/
+    /* border: 3px dashed blue; */
+}
+#search_Page.user_mode .charity-content-text p {
+    /* padding-top: 15px; */
+}
+
+
+

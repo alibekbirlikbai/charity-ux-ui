@@ -1,0 +1,29 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#home_Page_DonationList.volunteer_mode .content-box {
+    border-top-left-radius: 0;
+}
+#home_Page_DonationList.volunteer_mode .respond-content-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#home_Page_DonationList.volunteer_mode .respond-button {
+    margin: 0 15px;
+
+    padding: 5px 15px;
+
+    background-color: #0077B6;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#home_Page_DonationList.volunteer_mode .respond-content-action p {
+    font-size: var(--font-size-main-content);
+    color: var(--color-additional-info);
+}

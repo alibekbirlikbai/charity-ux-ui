@@ -1,0 +1,35 @@
+/*  __BASIC__  */
+:root {
+    /*  --width-- */
+    --max-width-container: 900px;
+    --min-width-container: 900px;
+
+    /*  --font--  */
+    --font-size-header-content: 23px;
+
+    --font-size-main-title: 0px;
+    --font-size-main-content-title: 23px;
+    --font-size-box-title: 21px;
+
+
+    --font-size-main-content: 18px;
+    
+    --font-size-additional-content: 17px;
+
+
+    /*  font_buttons*/
+    --font-size-button-action: 20px;
+    --font-size-button-donation-to-specific: 22px;
+    --font-size-button-logout: 21px;
+
+
+    /*  --color--  */
+    --color-main-theme: #1B2B4C;
+    --color-additional-info: #808080;
+
+    /* icon-img */
+}
+h2 {
+    font-size: var(--font-size-box-title);
+}
+

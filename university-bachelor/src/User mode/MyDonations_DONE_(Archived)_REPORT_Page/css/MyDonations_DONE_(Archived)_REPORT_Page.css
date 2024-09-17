@@ -1,0 +1,247 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+:root {
+    /*  font  */
+    --font-size-report-title: 30px;
+    --font-size-report-box-title: 23px;
+
+    /* gap */
+    --gap-between-title-and-content: 0px;
+}
+
+
+
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .content-box {
+    gap: 20px;
+
+    padding-bottom: 50px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .back_to_doneArchived_link {
+    width: fit-content;
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .back_to_doneArchived_link a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .back_to_doneArchived_link a img {
+    width: 20px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .back_to_doneArchived_link a p {
+    font-size: var(--font-size-main-content);
+
+     /*TEMP*/
+     /* border: 3px dashed white;    */
+}
+
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .url_and_report_container {
+    display: flex;
+    flex-direction: column;
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .report-content-box {
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .report-title {
+    background-color: var(--color-main-theme);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .report-title p {
+    text-align: center;
+
+    padding: 15px 0;
+    color: #fff;
+    font-size: var(--font-size-main-content-title);
+
+    /*TEMP*/
+    /* border: 3px dashed white;     */
+}
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .report-flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-color: #F5F6F7;
+    border-radius: 10px;
+
+    padding: 20px 50px;
+    padding-bottom: 50px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .report-flex-box hr:first-of-type {
+    margin-bottom: 10px;
+}
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .report_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+    /*TEMP*/
+    /* border: 3px dashed black;  */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .box-title {
+    text-align: center;
+    
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+
+ 
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    /*TEMP*/
+    /* border: 3px dashed black;       */
+}
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-title {
+    width: fit-content;
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-title p:first-child {
+    width: fit-content;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+
+    padding: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed white;       */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-title p:nth-child(2) {
+    color: var(--color-additional-info);
+    text-align: left;
+
+    padding-left: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black;       */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .flex-direction-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    /*TEMP*/
+    /* border: 3px dashed black;       */
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-title.flex-direction-column {
+    gap: 0px;
+}
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-content {
+    padding-top: 10px;
+    font-size: var(--font-size-main-content);
+    text-align: left;
+
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-box.flex-direction-column {
+    gap: 10px;
+}
+
+
+
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_donor .item-content {
+    display: flex;
+    gap: 5px;
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_contacts .item-content,
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_report_description .item-content,
+#myDonations_Done_Archived_REPORT_Page.user_mode .item-box.flex-direction-column .item-content {
+    padding-top: 0;
+}
+
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_report_description {
+    margin-top: 15px;
+}
+
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_donation_img .item-content,
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_report_img .item-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+    /*TEMP*/
+    background-color: 3px dashed black;
+}
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_donation_img .item-content .donation-img, 
+#myDonations_Done_Archived_REPORT_Page.user_mode #item_report_img .item-content .donation-img {
+    width: 250px;
+    height: 150px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+}

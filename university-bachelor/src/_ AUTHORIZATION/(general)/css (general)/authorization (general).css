@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import 'root_variables (general).css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html * {
+    font-family: 'Inter', sans-serif !important;
+}
+html, body {
+    height: 100%;
+}
+body {
+    height: 100%;
+
+    /* TEMP */
+    /* background-color: red; */
+}
+
+
+
+/* --BASIC-- */
+.auth.wrapper { 
+    display: flex;
+    flex-flow: column;
+    
+    height: 100%;
+
+    background-color: #F5F6F7;
+}
+.auth .HEADER {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* flex: 0 1 auto; */
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+    
+    color: white;
+    background-color: #1B2B4C;
+
+    /* TEMP */
+    /* border: 5px solid red; */
+}
+
+.auth .MAIN {
+    flex: 1 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 1,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+    min-height: 545px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+
+.auth .FOOTER {
+    /* flex: 1 1 auto; */
+
+    display: flex;
+    flex-flow: column;
+    /* height: 100%; */
+
+    padding: 30px 0;
+
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: 40px
+    */
+    
+    color: #fff;    
+    background-color: #1B2B4C;
+    
+    /* TEMP */
+    /* border: 5px solid blue; */
+}
+
+
+
+/* --DEEP-- */
+/* HEADER */
+.auth .logo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    max-width: 80px;
+    max-height: 80px;
+
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+.auth .logo-img {
+    width: 100%;
+    height: 100%;
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+
+
+
+/* MAIN */
+.auth .container {
+    /* padding: 5% 0; */
+
+    display: flex;
+    justify-content: center;
+
+    /* padding: 70px 300px; */
+    background-color: #F5F6F7;
+    
+    /* TEMP */
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+.auth .container__main {
+    max-width: 900px;
+    min-width: 800px;
+
+    padding: 40px 0;
+    background-color: #fff;
+
+    border: 3px solid #1B2B4C;
+    border-radius: 10px;
+
+    /* TEMP */
+}
+.auth .content {
+    text-align: center;
+
+    padding: 0 75px;
+
+    /* TEMP */
+    /* background-color: blue; */
+}
+
+.auth .content__title {
+    margin-bottom: 10px;
+
+    font-size: var(--font-size-main-content-title);
+
+    /* TEMP */
+    /* background-color: aqua; */
+}
+
+.auth hr {
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2.5px solid #1B2B4C;
+}
+
+.auth .content__body {
+    /* TEMP */
+    /* background-color: yellow; */
+}
+.auth .content__body button:first-child {
+    margin-top: 0;
+}
+.auth .userType-selection-button {
+    margin: 5px 0;
+    /* padding: 12px 50px; */
+    font-size: var(--font-size-button-userType-selection);
+
+    color: #fff;
+    background-color: #1B2B4C;
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+}
+.auth .userType-selection-button a {
+    display: block;
+    padding: 12px 50px;
+
+    text-decoration: none;
+    color: #fff;
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+.auth .flex-2-column {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin: 5px 0;
+
+    /* TEMP */
+    /* background-color: blue;    */
+}
+.auth .flex-2-column button {
+    width: 210px;
+}
+.auth .content-additional-text {
+    margin: 5px 0;
+
+    font-size: var(--font-size-additional-content-text);
+}
+
+
+
+/* FOOTER */
+.auth .copyright__container {
+    flex: 1 1 auto;
+
+    /* padding: 20px 0; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--font-size-copyright-text);
+
+    text-align: center;
+
+    /* TEMP */
+    /* border: 3px solid green; */
+}
+.auth .copyright-text {
+    /* TEMP */
+    /* border: 3px solid green;  */
+}

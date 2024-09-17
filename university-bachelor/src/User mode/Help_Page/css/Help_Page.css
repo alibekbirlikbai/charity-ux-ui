@@ -1,0 +1,215 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+:root {
+    /*  font  */
+    --font-size-content-title: 25px;
+
+    /* gap */
+    --gap-between-title-and-content: 0px;
+}
+
+/* --HEADER-- */
+
+
+/* --MAIN-- */
+#help_Page.user_mode .container__main {
+    max-width: var(--max-width-container);
+
+    /* margin-bottom: 30px; */
+    margin-bottom: 60px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed red; */
+}
+#help_Page.user_mode .content {
+
+    /*TEMP*/
+    /* background-color: aqua; */
+}
+#help_Page.user_mode .content__title {
+    text-align: center;
+
+    padding: 15px 0;
+
+    background-color: var(--color-main-theme);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    color: #fff;
+    font-size: var(--font-size-main-content-title);
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}   
+
+
+#help_Page.user_mode .content__body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 30px 50px;
+    padding-bottom: 50px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#help_Page.user_mode .box-title {
+    text-align: center;
+    font-size: var(--font-size-content-title);
+}
+
+
+/*  #1 Content_box*/
+#help_Page.user_mode .content-box:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding: 30px 50px;
+    padding-bottom: 50px;
+
+    font-size: var(--font-size-main-content);
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:first-child .box-title {
+    font-weight: bold;
+
+    font-size: var(--font-size-box-title);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:first-child .box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#help_Page.user_mode .content-box:first-child .box-content .box-item {
+    display: flex;
+    gap: 5px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:first-child .box-item span {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:first-child .box-item p {    
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#help_Page.user_mode .content-box:first-child .box-content img {
+    width: 100px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+
+/*  #2 Content_box*/
+#help_Page.user_mode .content-box:last-child {
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#help_Page.user_mode .content-box:last-child .box-title {
+    padding: 15px 0;
+
+    background-color: var(--color-main-theme);
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:last-child .box-title p {
+    color: #fff;
+
+    font-size: var(--font-size-box-title);
+}
+
+#help_Page.user_mode .content-box:last-child .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px 30px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .content-box:last-child .box-item {
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    font-size: var(--font-size-main-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 10px;
+    padding-right: 5px;
+
+    border-bottom: 3px solid var(--color-main-theme);
+    background-color: #E5E5e5;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+    cursor: pointer;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .item-title p {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .item-title img {
+    width: 25px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#help_Page.user_mode .item-content {
+    padding: 20px;
+
+    text-align: left;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#help_Page.user_mode .item-hide .item-title {
+    border-radius: 8px;
+    border: none;
+}
+#help_Page.user_mode .item-hide .item-content {
+    display: none;
+}

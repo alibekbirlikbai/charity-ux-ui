@@ -1,0 +1,263 @@
+/* --BASIC-- */
+.auth.login_logup .HEADER {
+    position: relative;
+
+    /* TEMP */
+    /* border: 5px solid red; */
+}
+
+
+
+/* --DEEP-- */
+/* HEADER */
+.auth.login_logup .signAs-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: auto 0;
+    margin-right: 100px;
+
+    height: 35px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+.auth.login_logup .left-arrow-img {
+    display: flex;
+    align-items: center;
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+.auth.login_logup .left-arrow-img img {
+    max-width: 80px;
+    max-height: 30px;
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+.auth.login_logup .signAs-box .link-signAs {
+    text-decoration: none;
+
+    color: #fff;
+    font-size: var(--font-size-header-content);    /*25px*/
+    text-align: center;
+
+    /* TEMP */
+    /* border: 1px solid white; */
+}
+
+
+
+
+
+/* MAIN */
+.auth.login_logup .container {
+    padding-top: 9%;
+    padding-bottom: 5%;
+
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #F5F6F7;
+    
+    /* TEMP */
+}
+.auth.login_logup .container__main {
+    position: relative;
+
+    max-width: 600px;
+    min-width: 500px;
+
+    padding: 35px 0;
+
+    background-color: #fff;
+
+    border: 3px solid #1B2B4C;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+
+    /* TEMP */
+}
+.auth.login_logup .container__titles {
+    position: absolute;
+    top: -50.5px;
+    left: -2px;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    /* TEMP */
+    /* background-color: red; */
+}
+.auth.login_logup .container__titles div {
+    display: flex;
+    align-items: end;
+
+    padding-bottom: 10px;
+
+    font-size: var(--font-size-main-content-container-titles);
+}
+.auth.login_logup .container__titles div a {
+    text-decoration: none;
+
+    color: black;
+}
+.auth.login_logup .container__titles .active {
+    padding: 10px 20px;
+
+    border: 3px solid #1B2B4C;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background-color: #fff;
+
+    font-size: var(--font-size-main-content-title);
+    font-weight: bold;
+
+    /* TEMP */
+    /* background-color: red; */
+}
+.auth.login_logup .content {
+    text-align: center;
+
+    padding: 0 75px;
+
+    /* TEMP */
+    /* background-color: blue; */
+}
+
+.auth.login_logup .content__title {
+    margin-bottom: 10px;
+
+    font-size: var(--font-size-main-content-title);
+
+    /* TEMP */
+    /* background-color: aqua; */
+}
+
+.auth.login_logup hr {
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2.5px solid #1B2B4C;
+}
+
+.auth.login_logup .content__body {
+    /* TEMP */
+    /* background-color: yellow; */
+}
+.auth.login_logup .content__body button:first-child {
+    margin-top: 0;
+}
+
+.auth.login_logup .sending__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    /* TEMP */
+    /* background-color: aqua; */
+}
+.auth.login_logup .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.auth.login_logup .input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.auth.login_logup .input-box, .button-box {
+    display: flex;
+    flex-direction: column;
+    /* TEMP */
+    /* background-color: red; */
+}
+.auth.login_logup .input-box label {
+    text-align: left;
+    padding-left: 1px;
+
+    font-size: var(--font-size-main-content);    /*25px*/
+}
+.auth.login_logup .input-box input {
+    padding: 4px 6px;
+
+    font-size: var(--font-size-additional-content);    /*20px*/
+
+    border: 3px solid #1B2B4C;
+    border-radius: 10px;
+}
+.auth.login_logup .input-box input::placeholder {
+    color: #808080;
+}
+
+.auth.login_logup .button-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.auth.login_logup .button-box .button-logIn, .auth.login_logup .button-logUp {
+    font-size: var(--font-size-button-login-logup);    /*20px*/
+
+    color: #fff;
+    background-color: #1B2B4C;
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+}
+.auth.login_logup .button-logIn a, .auth.login_logup .button-logUp a {
+    display: block;
+    padding: 12px 50px;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 1px solid red; */
+}
+.auth.login_logup .button-box .button-text {
+    text-align: right;
+
+    font-size: var(--font-size-additional-content);    /*15px*/
+}
+
+
+
+
+
+
+
+/* FOOTER */
+.auth.login_logup .copyright__container {
+    /* flex: 1 1 auto; */
+
+    /* padding: 20px 0; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: var(--font-size-copyright-text);    /*17px*/
+
+    text-align: center;
+
+    /* TEMP */
+    /* border: 3px solid green; */
+}
+.auth.login_logup .copyright-text {
+    /* TEMP */
+    /* border: 3px solid green;  */
+}

@@ -1,0 +1,111 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+/* .titles-box #title_donation {
+    width: 15%;
+} */
+#myDonations_Done_Archived_Page.user_mode .titles-box #title_date {
+    width: 60.7%;
+}
+#myDonations_Done_Archived_Page.user_mode .titles-box #title_contacts {
+    width: 25%;
+}
+#myDonations_Done_Archived_Page.user_mode .titles-box #title_address {
+    width: 24.5%;
+}
+#myDonations_Done_Archived_Page.user_mode .titles-box #title_action {
+    /* width: 100%; */
+}
+
+
+#myDonations_Done_Archived_Page.user_mode .content-title-box #title_donation {
+    width: 21%;
+}
+
+
+
+
+
+#myDonations_Done_Archived_Page.user_mode .box-content {
+    width: 78%;
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+
+
+#myDonations_Done_Archived_Page.user_mode .donation-img {
+    width: 176px;
+    height: 120px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+}
+
+
+#myDonations_Done_Archived_Page.user_mode .box-action {
+    /* width: 19%; */
+    width: 22%;
+
+    display: flex;
+
+    font-size: var(--font-size-main-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+
+
+
+#myDonations_Done_Archived_Page.user_mode .box-action-container {
+    /* width: 100%; */
+    width: 190px;
+    
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDonations_Done_Archived_Page.user_mode .box-action-container a {
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDonations_Done_Archived_Page.user_mode .box-action-container img {
+    width: 90px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDonations_Done_Archived_Page.user_mode .box-action-container button {
+
+    /* width: 120px; */
+    
+    background-color: var(--color-main-theme);
+
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+#myDonations_Done_Archived_Page.user_mode .box-action-container .see_report-button p {
+    /* display: block; */
+
+    /* padding: 10px 0px; */
+    padding: 5px 10px;
+
+    /* text-decoration: none; */
+    font-size: var(--font-size-button-action);   /*      var(--font-size-additional-content)     */
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+

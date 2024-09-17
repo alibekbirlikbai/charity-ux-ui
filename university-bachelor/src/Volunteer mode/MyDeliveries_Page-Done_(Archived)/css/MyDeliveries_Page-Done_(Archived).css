@@ -1,0 +1,154 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-select-box {
+    margin-left: 10px;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-box {
+    /* border-top-left-radius: 0; */
+}
+
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .delivered-content-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .delivered-button {
+    /* margin: 0 15px; */
+
+    padding: 5px 15px;
+
+    background-color: #379237;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .delivered-content-action p {
+    font-size: var(--font-size-main-content);
+    color: var(--color-additional-info);
+}
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box p {
+    display: flex;
+    align-items: center;
+
+    /*TEMP*/
+    /* border: 3px dashed white;     */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box .title {
+    /*TEMP*/
+    /* border: 3px dashed white;    */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_donation {
+    width: 16.5%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_date {
+    width: 16.8%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_contacts_DONOR {
+    width: 18.5%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_address_DONOR {
+    width: 13.5%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_contacts_CHARITY {
+    width: 18.5%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_address_CHARITY {
+    width: 14.5%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .titles-box #title_action {
+    /* width: 100%; */
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode #title_action p {
+    /*TEMP*/
+    /* border: 3px dashed white;     */
+}
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 12px 0;
+
+    /*TEMP*/
+    /* border: 3px dashed white;         */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .title_container p {
+    padding: 0;
+
+    /*TEMP*/
+    /* border: 3px dashed white;      */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .title_container p:last-child {
+    font-size: var(--font-size-title-additional)
+}
+
+
+
+
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title {
+    /*TEMP*/
+    /* border: 1px dashed black; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_donation {
+    width: 20%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_date {
+    width: 20%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_contacts_DONOR {
+    width: 22%;
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_address_DONOR {
+    width: 16%;
+    /* width: 0px; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_contacts_CHARITY {
+    width: 22%;
+    /* width: 31%; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_address_CHARITY {
+    width: 15%;
+
+    /* width: 0px; */
+}
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_contacts_DONOR,
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_address_DONOR,
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_contacts_CHARITY,
+#myDeliveries_Page_DONE_Archived.volunteer_mode .content-title-box #title_address_CHARITY {
+    color: var(--color-additional-info)
+}
+
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .box-content {
+    width: 110%;
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_DONE_Archived.volunteer_mode .box-action {
+    /* width: 19%; */
+}
+
+
+
+
+
+#myDeliveries_Page_DONE_Archived.volunteer_mode .description-img-box .donation-img {
+    height: 150px;
+}

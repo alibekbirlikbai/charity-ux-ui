@@ -1,0 +1,713 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+/*  __MAIN__  */
+#profile_Page.organization_mode .wrapper {
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .MAIN {
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .container {
+    gap: 40px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+
+
+#profile_Page.organization_mode .container__main {
+
+}
+#profile_Page.organization_mode .MAIN .content {
+    gap: 0;
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .content__title {
+    text-align: center;
+
+    padding: 15px 0;
+
+    background-color: var(--color-main-theme);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    color: #fff;
+    font-size: var(--font-size-main-content-title);
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}   
+
+
+#profile_Page.organization_mode .content__body {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    padding: 30px 70px;
+    padding-bottom: 50px;
+
+    /* border: 3px solid var(--color-main-theme); */
+
+    background-color: #fff;
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* background-color: red; */
+    /* border: 3px dashed black; */
+}
+
+#profile_Page.organization_mode .charity-profile_title {
+    text-align: center;
+    font-size: var(--font-size-charity-profile-title);
+
+    /*TEMP*/
+    /* background-color: red; */
+    /* border: 3px dashed black; */
+}
+
+#profile_Page.organization_mode .charity-profile_flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    /*TEMP*/
+    /* background-color: yellow; */
+    /* border: 3px dashed black; */
+}
+
+
+
+#profile_Page.organization_mode #short_info {
+    display: flex;
+    flex-direction: row;
+
+    /*TEMP*/
+    /* border: 5px dashed red; */
+}
+
+
+
+#profile_Page.organization_mode .charity-profile_box:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    /* padding: 20px; */
+
+    /* border: 3px solid var(--color-main-theme); */
+}
+#profile_Page.organization_mode .charity-profile_box .charity-profile-img {
+    width: 300px;
+    height: 250px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: 3px solid var(--color-main-theme);
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode .charity-profile_box .charity-content-box {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#profile_Page.organization_mode .charity-content {
+    display: flex;
+    gap: 15px;
+
+    font-size: var(--font-size-main-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+
+#profile_Page.organization_mode .charity-content .charity-content-title {
+    width: 380px;
+    height: fit-content;
+
+
+    
+    color: #fff;
+    /* text-align: left; */
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode .charity-content-title p {
+    padding: 15px 20px;
+
+    text-align: left;
+    
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 1px dashed white; */
+}
+
+#profile_Page.organization_mode .charity-content .charity-content-text {
+    width: 100%;
+    text-align: justify;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 1px solid black; */
+}
+#profile_Page.organization_mode .charity-content-text p {
+    /* padding-top: 15px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#profile_Page.organization_mode #about_us {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-between-title-and-content);
+
+    /*TEMP*/
+    /* border: 5px dashed red; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #about_us .box-content {
+    width: 97.5%;
+
+    /*TEMP*/
+    /* border: 5px dashed black; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #about_us .content-FULL-about-organization {
+    width: 100%;
+}
+#profile_Page.organization_mode #about_us textarea {
+    width: 100%;
+    max-height: 500px;
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    padding: 10px;
+
+    font-size: var(--font-size-main-content);
+
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+#profile_Page.organization_mode #about_us textarea::placeholder {
+    color: var(--color-additional-info);
+}
+
+
+
+#profile_Page.organization_mode #who_do_we_help {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-between-title-and-content);
+    
+    /*TEMP*/
+    /* border: 5px dashed red; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #who_do_we_help .box-title {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: red; */
+}
+#profile_Page.organization_mode #who_do_we_help .box-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+
+    width: 100%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: red; */
+}
+
+#profile_Page.organization_mode #who_do_we_help .organization-flex-box {
+    display: flex;
+    justify-content: space-between;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: yellow; */
+}
+#profile_Page.organization_mode #who_do_we_help .organization-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 23%;
+    min-width: 215px;
+
+    /* margin-top: 5px; */
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: coral; */
+}
+#profile_Page.organization_mode #who_do_we_help .organization-img {
+    width: 100%;
+    height: 150px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+}
+#profile_Page.organization_mode #who_do_we_help .organization-title {
+    text-align: center;
+
+    /*TEMP*/
+    /* border: 3px solid black; */
+    /* background-color: blue; */
+}
+
+
+
+#profile_Page.organization_mode .box-action-container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+
+    width: 100%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: yellow; */
+}
+#profile_Page.organization_mode .box-action-container button {
+    display: flex;
+    justify-content: center;
+
+    /* width: 90px; */
+    
+    border-radius: 10px;
+    border: 3px solid var(--color-main-theme);
+}
+#profile_Page.organization_mode .box-action-container a {
+    display: block;
+    width: 100%;
+
+    padding: 8px 0px;
+
+    text-decoration: none;
+    font-size: var(--font-size-button-action);    /*      var(--font-size-additional-content)     */
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+#profile_Page.organization_mode .edit-content-action {
+    width: 50%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .edit-button {
+    width: 100%;
+
+    background-color: #0077B6;
+}
+
+#profile_Page.organization_mode .delete-content-action {
+    width: 50%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .delete-button {
+    width: 100%;
+
+    background-color: #E73C35;
+}
+
+
+
+
+
+
+
+
+
+
+
+#profile_Page.organization_mode #who_do_we_help .organization-button-box {
+    display: flex;
+    justify-content: center;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: blue; */
+}
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: blue; */
+}
+
+
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box {
+    display: flex;
+
+    width: fit-content;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box a {
+    text-decoration: none;
+}
+
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 12px 15px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box-button img {
+    width: 25px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #who_do_we_help .add_new_organization-box-button p {
+    font-size: var(--font-size-button-action);
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+
+
+
+
+
+
+
+
+#profile_Page.organization_mode #social_hub {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-between-title-and-content);
+
+    /*TEMP*/
+    /* border: 5px dashed red; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #social_hub .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    width: 100%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #social_hub .socialMedia-flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 73px; */
+    justify-content: space-between;
+    align-items: end;
+
+    width: 100%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */    
+}
+#profile_Page.organization_mode #social_hub .socialMedia-box {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+
+    width: 135px;
+
+    /*TEMP*/
+    /* border: 5px dashed blue; */
+    /* background-color: aqua; */
+}
+
+#profile_Page.organization_mode #social_hub .socialMedia-img {
+    width: 100%;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode #social_hub .square {
+    width: 200px;
+}
+#profile_Page.organization_mode #social_hub .socialMedia-title {
+    text-align: center;
+
+    /*TEMP*/
+    /* border: 3px solid black; */
+    /* background-color: yellow; */
+}
+
+
+#profile_Page.organization_mode #social_hub .socialMedia-button-box {
+    display: flex;
+    justify-content: center;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: blue; */
+}
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: blue; */
+}
+
+
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box {
+    display: flex;
+
+    width: fit-content;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box a {
+    text-decoration: none;
+}
+
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 10px 20px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box-button img {
+    width: 35px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#profile_Page.organization_mode #social_hub .add_new_socialMedia-box-button p {
+    font-size: var(--font-size-button-action);
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+
+
+
+
+
+
+
+
+
+#profile_Page.organization_mode #button .box-content {
+    width: 100%;
+
+    text-align: center;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .makeDonation_to_THAT_charity-button {
+    border-radius: 10px;
+    background-color: var(--color-main-theme);
+}
+#profile_Page.organization_mode .makeDonation_to_THAT_charity-button a {
+    display: block;
+    padding: 20px 35px;
+
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: var(--font-size-button-donation-to-specific);
+    /* font-size: var(--font-size-header-content); */
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed white; */
+}
+
+
+
+
+
+
+
+
+
+#profile_Page.organization_mode #about_us, #profile_Page.organization_mode #who_do_we_help, #profile_Page.organization_mode #social_hub {
+    display: flex;
+    gap: 15px;
+
+    /*TEMP*/
+    /* border: 5px dashed red; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode .box-title {
+    text-align: center;
+    
+    /*TEMP*/
+    /* border: 5px dashed black; */
+    /* background-color: aqua; */
+}
+#profile_Page.organization_mode .box-content {
+    font-size: var(--font-size-main-content);
+
+    /*TEMP*/
+    /* border: 5px dashed black; */
+    /* background-color: coral; */
+}
+#profile_Page.organization_mode .box-content a {
+    /* text-decoration: none; */
+}
+
+
+#profile_Page.organization_mode .container__main hr {
+    border: 3px solid var(--color-main-theme);
+    margin: 10px 0;
+}
+
+
+#profile_Page.organization_mode .content-FULL-about-organization {
+    text-align: justify;
+}
+#profile_Page.organization_mode .content-FULL-about-organization b {
+    /* background-color: aqua; */
+}
+
+
+
+
+#profile_Page.organization_mode .charity-profile_box:last-child {
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode #logout .box-content {
+    display: flex;
+    justify-content: right;
+
+    width: 100%;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#profile_Page.organization_mode .logout-button {
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+
+    padding: 5px 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed red;   */
+}
+#profile_Page.organization_mode .logout-button a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 15px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+
+    text-decoration: none;
+
+    /*TEMP*/
+    /* border: 3px dashed white;   */
+}
+#profile_Page.organization_mode .logout-button img {
+    width: 30px;
+    height: 25px;
+
+    /*TEMP*/
+    /* border: 3px dashed white;   */
+}
+#profile_Page.organization_mode .logout-button p {
+    font-size: var(--font-size-button-logout);
+    color: #fff;
+
+
+    /*TEMP*/
+    /* border: 3px dashed white;   */
+}

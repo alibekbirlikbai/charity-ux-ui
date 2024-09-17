@@ -1,0 +1,232 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+/*  __MAIN__  */
+#socialHub_Page.organization_mode .container {
+    gap: 40px;
+
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black;   */
+}
+
+#socialHub_Page.organization_mode.wrapper {
+    min-height: 100vh;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black;   */
+}
+
+#socialHub_Page.organization_mode .MAIN {
+    height: 100%;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black;      */
+}
+#socialHub_Page.organization_mode .container {
+    min-height: 650px;
+
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+#socialHub_Page.organization_mode .MAIN .content {
+    display: flex;
+
+    gap: 20px;
+
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+
+#socialHub_Page.organization_mode .content__title {
+    /*TEMP*/
+    /* border: 3px dashed black;      */
+}
+#socialHub_Page.organization_mode .content__additional {
+    display: flex;
+    justify-content: center;
+
+    /*TEMP*/
+    /* border: 3px dashed black;     */
+}
+
+#socialHub_Page.organization_mode .add_new_socialMedia-box {
+    display: flex;
+
+    width: fit-content;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#socialHub_Page.organization_mode .add_new_socialMedia-box a {
+    text-decoration: none;
+}
+
+#socialHub_Page.organization_mode .add_new_socialMedia-box-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 12px 15px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+    border: none;
+
+    cursor: pointer;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#socialHub_Page.organization_mode .add_new_socialMedia-box-button img {
+    width: 25px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+#socialHub_Page.organization_mode .add_new_socialMedia-box-button p {
+    font-size: var(--font-size-button-action);
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+
+
+
+
+
+
+#socialHub_Page.organization_mode .content__body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#socialHub_Page.organization_mode .content-box {   
+    padding: 50px 80px;
+    padding-bottom: 70px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black */
+}
+#socialHub_Page.organization_mode .social_hub-flex-box {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: left; */
+    flex-wrap: wrap;
+    /* gap: 55px; */
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black;     */
+}
+
+
+#socialHub_Page.organization_mode .socialMedia-box {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: end;
+
+    gap: 8px;
+
+
+    /*TEMP*/
+    /* background-color: red; */
+    /* border: 3px dashed blue; */
+}
+#socialHub_Page.organization_mode .box-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#socialHub_Page.organization_mode .socialMedia-img {
+    width: 130px;
+    /* height: 130px; */
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed black; */
+}
+#socialHub_Page.organization_mode .square {
+    width: 200px;
+}
+#socialHub_Page.organization_mode .socialMedia-title {
+    font-size: var(--font-size-button-action);
+    text-align: center;
+
+    /*TEMP*/
+    /* border: 3px solid black; */
+    /* background-color: yellow; */
+}
+
+
+
+
+
+
+#socialHub_Page.organization_mode .box-action-container {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+
+    gap: 7px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: yellow; */
+}
+#socialHub_Page.organization_mode .box-action-container button {
+    display: flex;
+    justify-content: center;
+
+    width: 90px;
+    
+    border-radius: 10px;
+    border: 3px solid var(--color-main-theme);
+}
+#socialHub_Page.organization_mode .box-action-container a {
+    display: block;
+    width: 100%;
+
+    padding: 8px 0px;
+
+    text-decoration: none;
+    font-size: var(--font-size-button-action);    /*      var(--font-size-additional-content)     */
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+#socialHub_Page.organization_mode .edit-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#socialHub_Page.organization_mode .edit-button {
+    background-color: #0077B6;
+
+}
+
+#socialHub_Page.organization_mode .delete-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#socialHub_Page.organization_mode .delete-button {
+    background-color: #E73C35;
+
+}

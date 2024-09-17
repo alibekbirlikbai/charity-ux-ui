@@ -1,0 +1,29 @@
+/*  __BASIC__  */
+:root {
+    /*  --font--  */
+    /*AUTORIZATION*/
+    /*SignAs*/
+    --font-size-additional-content-text: 22px;
+    --font-size-copyright-text: 17px;
+
+    /*login & logout*/
+    --font-size-header-content: 25px;
+    --font-size-main-content-title: 23px;
+    --font-size-main-content-container-titles: 23px;
+
+    --font-size-main-content: 21px;
+    --font-size-additional-content: 19px;
+    --font-size-button-login-logup: 20px;
+
+
+    /*SignAs*/
+    --font-size-main-content-title: 26px;
+    --font-size-button-userType-selection: 21px;
+
+
+
+
+    /*  --color--  */
+    --color-main-theme: #1B2B4C;
+}
+

@@ -1,0 +1,10 @@
+.auth.logup .container__main {
+    border-radius: 10px;
+
+    /* TEMP */
+    /* background-color: aqua; */
+}
+
+.auth.logup .container__titles {
+    padding-left: 10px;
+}

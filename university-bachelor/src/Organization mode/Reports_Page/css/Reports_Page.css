@@ -1,0 +1,71 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+/*  __MAIN__  */
+#reports_Page.organization_mode .MAIN {
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 100%; */
+}
+#reports_Page.organization_mode .MAIN.container {
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 100%; */ 
+}
+#reports_Page.organization_mode .container {
+    gap: 40px;
+}
+
+#reports_Page.organization_mode .content__body {
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+}
+#reports_Page.organization_mode .content__title {
+    text-align: center;
+
+    padding: 15px 0;
+
+    background-color: var(--color-main-theme);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    color: #fff;
+    font-size: var(--font-size-main-content-title);
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}   
+#reports_Page.organization_mode .content-box {
+    border: none;
+    /* background-color: aqua; */
+}
+
+
+
+
+#reports_Page.organization_mode .titles-box #title_address {
+    width: 22.2%;
+}
+
+
+
+
+
+#reports_Page.organization_mode .make_report-content-action {
+}
+#reports_Page.organization_mode .make_report-button {
+    margin: 0 15px;
+
+    background-color: var(--color-main-theme);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#reports_Page.organization_mode .make_report-button a {
+    min-width: 123px;
+
+    padding: 12px;
+    
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}

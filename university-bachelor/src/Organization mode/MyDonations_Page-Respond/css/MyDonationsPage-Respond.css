@@ -1,0 +1,29 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDonations_Page_Respond.organization_mode .content-box {
+    border-top-left-radius: 0;
+}
+#myDonations_Page_Respond.organization_mode .volunteer_search-content-action {
+}
+#myDonations_Page_Respond.organization_mode .volunteer_search-button {
+    margin: 0 15px;
+
+    background-color: #0077B6;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDonations_Page_Respond.organization_mode .volunteer_search-button a {
+    display: block;
+    
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
+/* #myDonations_Page_Respond.organization_mode .box-content {
+    gap: 0;
+} */

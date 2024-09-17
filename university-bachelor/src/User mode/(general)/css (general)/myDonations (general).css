@@ -1,0 +1,398 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+:root {
+    /* gap */
+    --gap-between-title-and-content: 0px;
+}
+
+/*ADDITIONAL CLASSES*/
+.user_mode.myDonations .sticky {
+    position: fixed;
+    top: 100px;
+    width: 775px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+
+
+    /* width: 100%; */
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+
+
+
+
+
+
+/*  --HEADER--  */
+.user_mode.myDonations .HEADER {
+    z-index: 100;
+}
+
+.user_mode.myDonations .container__header .links__container .active {
+    text-decoration: underline;
+}
+
+/*  --MAIN--  */
+.user_mode.myDonations .container__main {
+    max-width: var(--max-width-container);
+
+    /* margin-bottom: 30px; */
+    margin-bottom: 60px;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+    /* border: 3px dashed red; */
+}
+.user_mode.myDonations .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border: none;
+
+    background-color: #F5F6F7;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+.user_mode.myDonations .content__title {
+    text-align: center;
+
+    /* padding: 15px 0; */
+    /* padding-bottom: 5px; */
+
+    background-color: #F5F6F7;
+
+    font-size: var(--font-size-main-content-title);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}   
+.user_mode.myDonations .content__body {
+    /* padding: 60px 150px; */
+    /* padding-bottom: 40px; */
+
+    font-size: var(--font-size-main-content);
+
+
+    background-color: #F5F6F7;
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+.user_mode.myDonations .content-title-select-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    /* background-color: #F5F6F7; */
+    /* background-color: red; */
+    background-color: none;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+.user_mode.myDonations .content-title-select-box {
+    margin-left: 10px;
+}
+
+.user_mode.myDonations .content-title-select-box a {
+    text-decoration: none;
+    color: black;
+
+    position: relative;
+    top: 7px;
+    
+}
+.user_mode.myDonations .content-title-select-box .active {
+    position: relative;
+    top: 2.5px;
+
+    border: 3px solid var(--color-main-theme);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0;
+
+    padding: 15px 25px;
+
+    background-color: #fff;
+}
+
+.user_mode.myDonations .content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 30px 40px;
+    padding-bottom: 40px;
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+
+
+.user_mode.myDonations .myDonations-content-box {
+    width: 100%;
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+.user_mode.myDonations .titles-box {
+    display: flex;
+    /* justify-content: space-between; */
+
+    background-color: var(--color-main-theme);
+    color: #fff;
+    font-size: var(--font-size-main-content);
+
+    padding-left: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+.user_mode.myDonations .titles-box p {
+    padding: 10px 0;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+.user_mode.myDonations .title {
+    display: flex;
+    gap: 15px;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+.user_mode.myDonations .title:last-child {
+    gap: 50px;
+}
+.user_mode.myDonations .title .vertical-hr {
+    position: relative;
+    top: -3px;
+
+    border-left: 3px solid white;
+    height: 107%;
+}
+
+.user_mode.myDonations .titles-box #title_donation {
+    width: 15%;
+}
+.user_mode.myDonations .titles-box #title_date {
+    width: 17%;
+}
+.user_mode.myDonations .titles-box #title_contacts {
+    width: 25%;
+}
+.user_mode.myDonations .titles-box #title_address {
+    width: 22.2%;
+}
+.user_mode.myDonations .titles-box #title_action {
+    /* width: 100%; */
+}
+
+
+
+
+
+
+
+.user_mode.myDonations .myDonations-flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 15px 20px;
+    padding-bottom: 25px;
+
+    background-color: #F5F6F7;
+    border-radius: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+.user_mode.myDonations .myDonations-box {
+    display: flex;
+    width: 100%;
+
+    border: 3px solid var(--color-main-theme);
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    /*TEMP*/
+    /* background-color: aqua; */
+}
+
+.user_mode.myDonations .box-content {
+    width: 83%;
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+.user_mode.myDonations .box-content hr {
+    margin: 0;
+    border: 2px solid var(--color-main-theme);
+}
+.user_mode.myDonations .content-title-box {
+    display: flex;
+    gap: 10px;
+
+    padding: 20px;
+
+    text-align: left;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+.user_mode.myDonations .content-title-box #title_donation {
+    width: 20%;
+}
+.user_mode.myDonations .content-title-box #title_date {
+    width: 21%;
+}
+.user_mode.myDonations .content-title-box #title_contacts {
+    width: 31%;
+}
+.user_mode.myDonations .content-title-box #title_address {
+    /* width: 0px; */
+}
+.user_mode.myDonations .content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: var(--font-size-additional-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* border-right: 3px dashed black; */
+}
+
+.user_mode.myDonations .content-title#title_contacts p, .content-title#title_address p {
+    color: var(--color-additional-info);
+} 
+.user_mode.myDonations .content-title p {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+.user_mode.myDonations .content-description-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    padding-bottom: 20px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: red; */
+}
+.user_mode.myDonations .description-img-box {
+    display: flex;
+    justify-content: space-between;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+    /* background-color: aqua; */
+}
+.user_mode.myDonations .donation-img {
+    width: 185px;
+    height: 120px;
+
+    background-color: var(--color-main-theme);
+    border-radius: 10px;
+}
+.user_mode.myDonations .description-text-box {
+    font-size: var(--font-size-additional-content);
+    text-align: left;
+}
+
+.user_mode.myDonations .box-action {
+    width: 19%;
+
+    display: flex;
+
+    font-size: var(--font-size-additional-content);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+.user_mode.myDonations .box-action .vertical-hr {
+    height: 100%;
+
+    border-left: 3px solid var(--color-main-theme);
+}
+
+.user_mode.myDonations .box-action-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+.user_mode.myDonations .edit-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+.user_mode.myDonations .edit-button {
+    background-color: #0077B6;
+
+}
+
+
+.user_mode.myDonations .delete-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+.user_mode.myDonations .delete-button {
+    background-color: #E73C35;
+
+}
+
+.user_mode.myDonations .box-action-container button {
+    display: flex;
+    justify-content: center;
+
+    width: 120px;
+    
+    border-radius: 10px;
+    border: 3px solid var(--color-main-theme);
+}
+.user_mode.myDonations .box-action-container a {
+    display: block;
+    width: 100%;
+
+    padding: 10px 0px;
+
+    text-decoration: none;
+    font-size: var(--font-size-button-action);    /*      var(--font-size-additional-content)     */
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+

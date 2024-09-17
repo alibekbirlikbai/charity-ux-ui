@@ -1,0 +1,42 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDeliveries_Page_Respond.volunteer_mode .content-box {
+    border-top-left-radius: 0;
+}
+#myDeliveries_Page_Respond.volunteer_mode .box-action-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_Respond.volunteer_mode .box-action-container a {
+    display: block;
+    width: 120px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDeliveries_Page_Respond.volunteer_mode .edit-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_Respond.volunteer_mode .edit-button {
+    background-color: #0077B6;
+
+}
+
+#myDeliveries_Page_Respond.volunteer_mode .delete-content-action {
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDeliveries_Page_Respond.volunteer_mode .delete-button {
+    background-color: #E73C35;
+
+}

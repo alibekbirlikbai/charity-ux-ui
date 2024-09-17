@@ -1,0 +1,18 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#home_Page_DonationList.organization_mode .content-box {
+    border-top-left-radius: 0;
+}
+
+#home_Page_DonationList.organization_mode .respond-button {
+    margin: 0 15px;
+
+    padding: 5px 15px;
+
+    background-color: #0077B6;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+

@@ -1,0 +1,22 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDonations_Page_Send.organization_mode .volunteer_search-content-action {
+}
+#myDonations_Page_Send.organization_mode .volunteer_search-button {
+    margin: 0 15px;
+
+    background-color: var(--color-main-theme);
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDonations_Page_Send.organization_mode .volunteer_search-button a {
+    min-width: 123px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}

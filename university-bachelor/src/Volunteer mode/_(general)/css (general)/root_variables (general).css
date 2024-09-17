@@ -1,0 +1,43 @@
+/*  __BASIC__  */
+:root {
+    /*  --width-- */
+    --width-sidebar: 16%;
+    --width-main: 84%;
+
+    --min-width-sidebar: 220px;
+    --min-width-main: 900px;
+    
+
+    /*  --font--  */
+    --font-size-sidebar-menu-content: 20px;
+    --font-size-menu-item-active: 23px;
+
+    --font-size-main-title: 0px;
+    --font-size-main-content-title: 24px;
+    --font-size-box-title: 21px;
+    --font-size-charity-profile-title: 23px;
+
+
+    --font-size-main-content: 18px;
+    --font-size-additional-content: 17px;
+
+    --font-size-title-additional: 17px; 
+
+
+    /*  font_buttons*/
+    --font-size-button-action: 20px;
+    --font-size-button-make-report: 22px;
+    --font-size-button-logout: 21px;
+
+
+
+    /*  --color--  */
+    --color-main-theme: #1B2B4C;
+    --color-additional-info: #808080;
+
+    /* icon-img */
+}
+h2 {
+    font-size: var(--font-size-box-title);
+}
+

@@ -1,0 +1,10 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDonations_NOT_Respond_Page.user_mode.myDonations .content-title-select-box {
+    margin-left: 0px;
+}
+
+#myDonations_NOT_Respond_Page.user_mode.myDonations .content-box {
+    border-top-left-radius: 0;
+}

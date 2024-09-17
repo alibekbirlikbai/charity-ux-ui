@@ -1,0 +1,54 @@
+@import '/(general)/css (general)/root_variables (general).css';
+
+
+#myDonations_Page_DONE_Archived.organization_mode .box-action-container {
+    /* width: 100%; */
+    width: 1712x;
+    
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDonations_Page_DONE_Archived.organization_mode .box-action-container a {
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+
+#myDonations_Page_DONE_Archived.organization_mode .box-action-container img {
+    width: 90px;
+
+    /*TEMP*/
+    /* border: 3px dashed black; */
+}
+#myDonations_Page_DONE_Archived.organization_mode .box-action-container button {
+
+    /* width: 120px; */
+    
+    background-color: var(--color-main-theme);
+
+
+    /*TEMP*/
+    /* border: 3px dashed red; */
+}
+#myDonations_Page_DONE_Archived.organization_mode .box-action-container .see_report-button p {
+    /* display: block; */
+
+    /* padding: 10px 0px; */
+    padding: 5px 10px;
+
+    /* text-decoration: none; */
+    font-size: var(--font-size-button-action);   /*      var(--font-size-additional-content)     */
+    color: #fff;
+
+    /*TEMP*/
+    /* border: 3px dashed white; */
+}
+
